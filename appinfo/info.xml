@@ -24,6 +24,19 @@
     <dependencies>
       <nextcloud min-version="11" max-version="13" />
     </dependencies>
+    <navigations>
+      <navigation>
+        <id>money</id>
+        <name>Money</name>
+        <route>money.page.index</route>
+        <order>4</order>
+        <icon>money.svg</icon>
+        <type>link</link>
+      </navigation>
+    </navigations>
+    <settings>
+      <personal>OCA\Money\Personal</personal>
+    </settings>
     <background-jobs>
       <job>OCA\Money\BackgroundJob\CleanupDatabase</job>
     </background-jobs>
