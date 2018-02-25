@@ -24,7 +24,7 @@
     <dependencies>
       <nextcloud min-version="11" max-version="13" />
     </dependencies>
-    <navigations>
+    <!-- <navigations>
       <navigation>
         <id>money</id>
         <name>Money</name>
@@ -36,7 +36,7 @@
     </navigations>
     <settings>
       <personal>OCA\Money\Personal</personal>
-    </settings>
+    </settings> -->
     <background-jobs>
       <job>OCA\Money\BackgroundJob\CleanupDatabase</job>
     </background-jobs>
